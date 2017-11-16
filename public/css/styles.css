@@ -1,0 +1,56 @@
+#header .menu-items li {
+  float: left;
+  list-style: none;
+  color: blue; }
+
+* {
+  color: black; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-color: green; }
+
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: green; }
+
+.square {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  background-color: green; }
+
+.float-and-black, #parent2 {
+  float: left;
+  background-color: black; }
+
+#parent {
+  width: 75%;
+  float: left;
+  background-color: red; }
+  #parent .child {
+    width: 50%;
+    margin: auto;
+    background-color: white; }
+    #parent .child ul {
+      list-style: none; }
+      #parent .child ul li {
+        font-size: 20px;
+        color: red; }
+
+#parent2 {
+  width: 25%;
+  float: left;
+  background-color: blue; }
+  #parent2 li {
+    font-size: 60px;
+    color: white; }
+
+/*# sourceMappingURL=styles.css.map */

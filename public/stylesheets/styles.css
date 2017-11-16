@@ -1,0 +1,78 @@
+/* line 8, ../../compass/sass/layout/_header.scss */
+#header .menu-items li {
+  float: left;
+  list-style: none;
+  color: blue;
+}
+
+/* line 6, ../../compass/sass/views/_home.scss */
+* {
+  color: black;
+}
+
+/* line 10, ../../compass/sass/views/_home.scss */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+/* line 15, ../../compass/sass/views/_home.scss */
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: green;
+}
+
+/* line 20, ../../compass/sass/views/_home.scss */
+.square {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  background-color: green;
+}
+
+/* line 16, ../../compass/sass/styles.scss */
+.float-and-black, #parent2 {
+  float: left;
+  background-color: black;
+}
+
+/* line 22, ../../compass/sass/styles.scss */
+#parent {
+  width: 75%;
+  float: left;
+  background-color: red;
+}
+/* line 26, ../../compass/sass/styles.scss */
+#parent .child {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+}
+/* line 30, ../../compass/sass/styles.scss */
+#parent .child ul {
+  list-style: none;
+}
+/* line 32, ../../compass/sass/styles.scss */
+#parent .child ul li {
+  font-size: 20px;
+  color: red;
+}
+
+/* line 39, ../../compass/sass/styles.scss */
+#parent2 {
+  width: 25%;
+  float: left;
+  background-color: blue;
+}
+/* line 44, ../../compass/sass/styles.scss */
+#parent2 li {
+  font-size: 60px;
+  color: white;
+}

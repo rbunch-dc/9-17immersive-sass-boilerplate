@@ -1,0 +1,70 @@
+// VARIABLES
+// -------------------------------
+@import "configs/variables.scss";
+@import "configs/mixins.scss";
+
+// LAYOUT
+// -------------------------------
+@import "layout/layout.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+
+// Pages/Views
+// -------------------------------
+@import "views/home.scss";
+
+.float-and-black{
+	float: left;
+	background-color: black;
+}
+
+
+#parent{
+	width: 75%;
+	float: left;
+	background-color: red;
+	.child{
+		width: 50%;
+		margin: auto;
+		background-color: white;		
+		ul{
+			list-style: none;
+			li{
+				font-size: 20px;
+				color: red;
+			}
+		}
+	}
+	.child.grandchild{
+		
+	}
+}
+#parent2{
+	@extend .float-and-black;
+	width: 25%;
+	float: left;
+	background-color: blue;
+	li{
+		font-size: 60px;
+		color: white;
+	}
+}
+
+// #parent .child, #parent2 .child{
+// 	width: 50%;
+// 	margin: auto;
+// 	background-color: white;
+// }
+
+
+
+.nav{
+	.menu-bar{
+		.left{
+			
+		}
+		.right{
+
+		}
+	}
+}
